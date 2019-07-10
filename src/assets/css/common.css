@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body, div, ul, ol, li, p, dl, dt, dd, h1, h2, h3, h4, button {
+  margin: 0;
+  padding: 0;
+  outline: 0; }
+  div{
+      display: block;
+  }
+html, body {
+  height: 100%; 
+  font-family: 'microsoft yahei';
+  background: #fff;
+  color: #333; 
+}
+input, textarea {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  outline: 0;
+  color: #333;
+  padding: 0;
+  margin: 0; }
+input::-webkit-input-placeholder {
+  color: #ccc; }
+ul, ol, li {
+  list-style: none;
+  list-style-type: none; }
+em, i {
+  font-style: normal; }
+a {
+  text-decoration: none;}
